@@ -40,16 +40,23 @@ class _ContentPageState extends State<ContentPage> {
       body: ProgressHud(
         key: _hudKey,
         child: Center(
-          child: Builder(
-            builder: (context) {
-              return FlatButton(
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              FlatButton(
                 child: Text("show toast"),
                 onPressed: () async {
                   await _hudKey.currentState.showAndDismiss(ProgressHudType.success, "flutter消息");
                 },
-              );
-            },
-          ),
+              ),
+              FlatButton(
+                child: Text("show native alert"),
+                onPressed: () async {
+                  FlutterBoost.singleton.channel.sendEvent("alert", {"message": "flutter消息"});
+                },
+              )
+            ],
+          )
         ),
       ),
     );
