@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:my_flutter/content_page.dart';
 import 'package:my_flutter/home_page.dart';
 import 'package:my_flutter/me_page.dart';
 import 'package:my_flutter/mynavigator_observer.dart';
@@ -24,6 +25,9 @@ class _MyAppState extends State<MyApp> {
       },
       "me": (String pageName, Map params, String uniqueId) {
         return MePage();
+      },
+      "content": (String pageName, Map params, String uniqueId) {
+        return ContentPage();
       }
     });
 

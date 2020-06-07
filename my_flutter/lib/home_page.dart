@@ -1,6 +1,7 @@
 import 'dart:math';
 import 'package:flutter/material.dart';
 import 'package:flutter_boost/flutter_boost.dart';
+import 'package:my_flutter/content_page.dart';
 import 'package:my_flutter/method_channel.dart';
 import 'package:sqflite/sqflite.dart';
 
@@ -99,12 +100,24 @@ class _HomePageState extends State<HomePage> {
               },
             ),
             FlatButton(
-              child: Text("跳转flutter页面"),
+              child: Text("跳转flutter me页面"),
               onPressed: () {
                 Navigator.of(context).push(
                   MaterialPageRoute(
                     builder: (context) {
                       return HomePage();
+                    }
+                  )
+                );
+              },
+            ),
+            FlatButton(
+              child: Text("跳转flutter content页面"),
+              onPressed: () {
+                Navigator.of(context).push(
+                  MaterialPageRoute(
+                    builder: (context) {
+                      return ContentPage();
                     }
                   )
                 );

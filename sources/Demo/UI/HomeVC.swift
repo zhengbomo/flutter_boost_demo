@@ -29,6 +29,7 @@ class HomeVC: ViewController {
         sv.addArrangedSubview(self.createButton(title: "push native page", selector: #selector(nativePage)))
         sv.addArrangedSubview(self.createButton(title: "push flutter home page", selector: #selector(pushFlutterHomePage)))
         sv.addArrangedSubview(self.createButton(title: "present flutter home page", selector: #selector(presentFlutterHomePage)))
+        sv.addArrangedSubview(self.createButton(title: "flutter page with native bar", selector: #selector(flutterBarPage)))
         sv.addArrangedSubview(self.createButton(title: "flutter me page", selector: #selector(flutterMePage)))
     }
     
@@ -52,6 +53,12 @@ class HomeVC: ViewController {
         // 需要设置成全屏，不然会有延迟释放问题
         navVC.modalPresentationStyle = .fullScreen
         NavigationHelper.presentVC(navVC)
+    }
+    
+    @objc private func flutterBarPage() {
+        let vc = NavigationBarFlutterVC();
+        vc.setName("content", params: [:]);
+        NavigationHelper.nav2VC(vc, navVC: self.navigationController)
     }
     
     @objc private func flutterMePage() {

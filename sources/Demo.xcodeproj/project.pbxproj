@@ -20,6 +20,7 @@
 		F731F5F9248938CA00C83154 /* FlutterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F731F5F8248938CA00C83154 /* FlutterVC.swift */; };
 		F77E2362248A3D430071E1D8 /* NavigationHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77E2361248A3D430071E1D8 /* NavigationHelper.swift */; };
 		F7A66202248CBCFB00E72F47 /* PopGestureEnable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A66201248CBCFB00E72F47 /* PopGestureEnable.swift */; };
+		F7A66204248CEED700E72F47 /* NavigationBarFlutterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A66203248CEED700E72F47 /* NavigationBarFlutterVC.swift */; };
 		FF27460CF9A3BBF9CE11FC57 /* libPods-Demo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 030CAB29A7099156268E8984 /* libPods-Demo.a */; };
 /* End PBXBuildFile section */
 
@@ -42,6 +43,7 @@
 		F731F5F8248938CA00C83154 /* FlutterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlutterVC.swift; sourceTree = "<group>"; };
 		F77E2361248A3D430071E1D8 /* NavigationHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationHelper.swift; sourceTree = "<group>"; };
 		F7A66201248CBCFB00E72F47 /* PopGestureEnable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopGestureEnable.swift; sourceTree = "<group>"; };
+		F7A66203248CEED700E72F47 /* NavigationBarFlutterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarFlutterVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +118,7 @@
 				F731F5F8248938CA00C83154 /* FlutterVC.swift */,
 				F77E2361248A3D430071E1D8 /* NavigationHelper.swift */,
 				F7A66201248CBCFB00E72F47 /* PopGestureEnable.swift */,
+				F7A66203248CEED700E72F47 /* NavigationBarFlutterVC.swift */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -272,6 +275,7 @@
 				F731F5F72489378100C83154 /* FlutterManager.swift in Sources */,
 				F731F5E824892D8400C83154 /* AppDelegate.swift in Sources */,
 				F731F5EB24892D8E00C83154 /* LoginVC.swift in Sources */,
+				F7A66204248CEED700E72F47 /* NavigationBarFlutterVC.swift in Sources */,
 				F731F5F124892DA000C83154 /* MeVC.swift in Sources */,
 				F731F5F9248938CA00C83154 /* FlutterVC.swift in Sources */,
 				F731F5EF24892D9800C83154 /* HomeVC.swift in Sources */,

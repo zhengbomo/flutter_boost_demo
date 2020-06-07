@@ -12,8 +12,7 @@ import flutter_boost
 import TZImagePickerController
 
 
-class FlutterVC: FLBFlutterViewContainer, PopGestureEnable {
-    
+class FlutterVC: FLBFlutterViewContainer, PopGestureEnable {    
     var popGestureRecognizerEnabled = true {
         didSet {
             self.navigationController?.interactivePopGestureRecognizer?.isEnabled = popGestureRecognizerEnabled
