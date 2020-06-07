@@ -1,0 +1,6 @@
+module CWActionSheet {
+  umbrella header "CWActionSheet-umbrella.h"
+
+  export *
+  module * { export * }
+}

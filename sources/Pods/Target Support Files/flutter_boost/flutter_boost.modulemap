@@ -1,0 +1,6 @@
+module flutter_boost {
+  umbrella header "flutter_boost-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,67 @@
+PODS:
+  - CWActionSheet (0.0.8)
+  - Flutter (1.0.0)
+  - flutter_boost (0.0.2):
+    - Flutter
+  - FlutterPluginRegistrant (0.0.1):
+    - Flutter
+    - flutter_boost
+    - sqflite
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
+  - my_flutter (0.0.1):
+    - Flutter
+  - SnapKit (5.0.1)
+  - sqflite (0.0.1):
+    - Flutter
+    - FMDB (~> 2.7.2)
+  - Then (2.6.0)
+  - TZImagePickerController (3.3.2)
+
+DEPENDENCIES:
+  - CWActionSheet
+  - Flutter (from `../my_flutter/.ios/Flutter/engine`)
+  - flutter_boost (from `../my_flutter/.ios/Flutter/.symlinks/flutter_boost/ios`)
+  - FlutterPluginRegistrant (from `../my_flutter/.ios/Flutter/FlutterPluginRegistrant`)
+  - my_flutter (from `../my_flutter/.ios/Flutter`)
+  - SnapKit (~> 5.0.1)
+  - sqflite (from `../my_flutter/.ios/Flutter/.symlinks/sqflite/ios`)
+  - Then
+  - TZImagePickerController (~> 3.3.2)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - CWActionSheet
+    - FMDB
+    - SnapKit
+    - Then
+    - TZImagePickerController
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: "../my_flutter/.ios/Flutter/engine"
+  flutter_boost:
+    :path: "../my_flutter/.ios/Flutter/.symlinks/flutter_boost/ios"
+  FlutterPluginRegistrant:
+    :path: "../my_flutter/.ios/Flutter/FlutterPluginRegistrant"
+  my_flutter:
+    :path: "../my_flutter/.ios/Flutter"
+  sqflite:
+    :path: "../my_flutter/.ios/Flutter/.symlinks/sqflite/ios"
+
+SPEC CHECKSUMS:
+  CWActionSheet: 502013ad051c4a8001d9c641d9fea109584391ca
+  Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
+  flutter_boost: a7cfa776b75329d5e7d101d0cd33e75042bcde69
+  FlutterPluginRegistrant: 417679cf45584c6d5d7c312af59a36d153cc3b9f
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  my_flutter: c0ca42721b3297bc8d54e93782ac00730d3bd1a1
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+  sqflite: 4001a31ff81d210346b500c55b17f4d6c7589dd0
+  Then: 90cd104fd951cec1980a03f57704ad8f784d4d79
+  TZImagePickerController: 36ca728ec681228918aa82e993aaab1962281b72
+
+PODFILE CHECKSUM: ea8e1af1ed5e6dbc4459650c7a8f480fc19c3309
+
+COCOAPODS: 1.9.1

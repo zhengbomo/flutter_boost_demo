@@ -1,0 +1,17 @@
+ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES
+CLANG_CXX_LANGUAGE_STANDARD = c++11
+CLANG_CXX_LIBRARY = libc++
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/../../my_flutter/.ios/Flutter" "${PODS_ROOT}/../../my_flutter/.ios/Flutter/engine"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/CWActionSheet" "${PODS_ROOT}/Headers/Public/FMDB" "${PODS_ROOT}/Headers/Public/FlutterPluginRegistrant" "${PODS_ROOT}/Headers/Public/TZImagePickerController" "${PODS_ROOT}/Headers/Public/flutter_boost" "${PODS_ROOT}/Headers/Public/sqflite"
+LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
+LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/CWActionSheet" "${PODS_CONFIGURATION_BUILD_DIR}/FMDB" "${PODS_CONFIGURATION_BUILD_DIR}/FlutterPluginRegistrant" "${PODS_CONFIGURATION_BUILD_DIR}/SnapKit" "${PODS_CONFIGURATION_BUILD_DIR}/TZImagePickerController" "${PODS_CONFIGURATION_BUILD_DIR}/Then" "${PODS_CONFIGURATION_BUILD_DIR}/flutter_boost" "${PODS_CONFIGURATION_BUILD_DIR}/sqflite"
+OTHER_CFLAGS = $(inherited) -fmodule-map-file="${PODS_CONFIGURATION_BUILD_DIR}/CWActionSheet/CWActionSheet.modulemap" -fmodule-map-file="${PODS_CONFIGURATION_BUILD_DIR}/SnapKit/SnapKit.modulemap" -fmodule-map-file="${PODS_CONFIGURATION_BUILD_DIR}/Then/Then.modulemap" -fmodule-map-file="${PODS_ROOT}/Headers/Public/FMDB/FMDB.modulemap" -fmodule-map-file="${PODS_ROOT}/Headers/Public/FlutterPluginRegistrant/FlutterPluginRegistrant.modulemap" -fmodule-map-file="${PODS_ROOT}/Headers/Public/TZImagePickerController/TZImagePickerController.modulemap" -fmodule-map-file="${PODS_ROOT}/Headers/Public/flutter_boost/flutter_boost.modulemap" -fmodule-map-file="${PODS_ROOT}/Headers/Public/sqflite/sqflite.modulemap" -isystem "${PODS_ROOT}/Headers/Public" -iframework "${PODS_ROOT}/../../my_flutter/.ios/Flutter/engine" -iframework "${PODS_ROOT}/../../my_flutter/.ios/Flutter"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"CWActionSheet" -l"FMDB" -l"FlutterPluginRegistrant" -l"SnapKit" -l"TZImagePickerController" -l"Then" -l"c++" -l"flutter_boost" -l"sqflite" -l"sqlite3" -framework "App" -framework "Flutter" -framework "MobileCoreServices" -framework "Photos" -framework "UIKit"
+OTHER_SWIFT_FLAGS = $(inherited) -D COCOAPODS -Xcc -fmodule-map-file="${PODS_CONFIGURATION_BUILD_DIR}/CWActionSheet/CWActionSheet.modulemap" -Xcc -fmodule-map-file="${PODS_CONFIGURATION_BUILD_DIR}/SnapKit/SnapKit.modulemap" -Xcc -fmodule-map-file="${PODS_CONFIGURATION_BUILD_DIR}/Then/Then.modulemap" -Xcc -fmodule-map-file="${PODS_ROOT}/Headers/Public/FMDB/FMDB.modulemap" -Xcc -fmodule-map-file="${PODS_ROOT}/Headers/Public/FlutterPluginRegistrant/FlutterPluginRegistrant.modulemap" -Xcc -fmodule-map-file="${PODS_ROOT}/Headers/Public/TZImagePickerController/TZImagePickerController.modulemap" -Xcc -fmodule-map-file="${PODS_ROOT}/Headers/Public/flutter_boost/flutter_boost.modulemap" -Xcc -fmodule-map-file="${PODS_ROOT}/Headers/Public/sqflite/sqflite.modulemap"
+PODS_BUILD_DIR = ${BUILD_DIR}
+PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
+PODS_ROOT = ${SRCROOT}/Pods
+SWIFT_INCLUDE_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/CWActionSheet" "${PODS_CONFIGURATION_BUILD_DIR}/SnapKit" "${PODS_CONFIGURATION_BUILD_DIR}/Then"
+USE_RECURSIVE_SCRIPT_INPUTS_IN_SCRIPT_PHASES = YES

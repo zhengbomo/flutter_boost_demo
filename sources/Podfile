@@ -1,0 +1,23 @@
+#plugin 'cocoapods-binary'
+
+source 'https://github.com/CocoaPods/Specs.git'
+
+platform:ios,'10.0'
+#use_frameworks!
+use_modular_headers!
+inhibit_all_warnings!
+
+# flutter
+flutter_application_path = '../my_flutter'
+load File.join(flutter_application_path, '.ios', 'Flutter', 'podhelper.rb')
+
+
+target 'Demo' do
+    pod 'SnapKit', '~> 5.0.1'
+    pod 'Then'
+    pod 'CWActionSheet'
+    pod 'TZImagePickerController', '~> 3.3.2'
+    
+    # flutter
+    install_all_flutter_pods(flutter_application_path)
+end
